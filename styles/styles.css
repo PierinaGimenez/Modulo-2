@@ -2,19 +2,56 @@
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: rgb(240, 155, 184);
+    height: 140px !important;
+}
 h1 {
-    font-family:cinzel decorative;
+    color: white;
+    font-family: pacifico;
 }
-
-li button a:hover {
-    color:rgb(119, 218, 248) !important;
-}
-
 main {
     background-image: url(/assets/img/fondo-pantalla-patron-ensueno-brillante-rosa-azul-pastel_53876-115661.jpg) !important;
     background-size: cover;
 }
-
 h2, a {
+    font-family: lato;
+}
+div.tarjeta {
+    width: 20vw ;
+    height: 50vh;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+    background-color: rgb(202, 248, 242);
+}
+div.imagen {
+    background-image: url(/assets/img/niño.jpg) !important;
+    background-position: center !important;
+    width:80% !important;
+    height:60% !important;
+
+}
+div.coleccion h3 {
+    height: 30%;
+    background-color: blueviolet;
+    
+}
+button.bg-transparent border border-0 rounded shadow mx-3 a {
+    height: 10% !important;
+}
+a.btn:hover {
+    color:rgb(240, 155, 184)!important;
+}
+h5 {
     font-family: pacifico;
+    color: rgb(240, 155, 184);;
+}
+button.bg-transparent:hover {
+    color:rgb(119, 218, 248) !important;
+}
+button a:hover {
+    color:rgb(119, 218, 248) !important;
 }
