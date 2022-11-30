@@ -3,7 +3,7 @@
     padding: 0;
 }
 header {
-    background-color: rgb(240, 155, 184);
+    background-color: rgb(240, 155, 184) !important;
     height: 140px !important;
 }
 h1 {
